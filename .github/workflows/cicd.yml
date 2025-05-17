@@ -1,5 +1,6 @@
 name: CICD Pipeline 
 
+# on push into main branch, it will trigger the pipeline.
 on:
   push:
     branches: [ "main" ]
