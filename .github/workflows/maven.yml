@@ -70,8 +70,8 @@ jobs:
             java-version: '17'
             distribution: 'temurin'
             cache: maven
-       - name: maven unit test cases
-         run: mvn test
+       - name: build project
+         run: mvn package
          
        - uses: actions/checkout@v4
          with:
